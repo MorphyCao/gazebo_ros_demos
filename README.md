@@ -6,9 +6,13 @@ Example robots and code for interfacing Gazebo, ROS2 and Moveit2
 
 ## Quick Start
 
-Gazebo:
+Gazebo with controller launch:
 
-    ros2 launch rrbot_moveit_demo_nodes rrbot_demo.launch.py
+    ros2 launch rrbot_gazebo rrbot_world_position_control.launch.py 
+
+Test Joint Trajectory Controller:
+
+    ros2 run rrbot_description position_control_test 
 
 ## Develop and Contribute
 
