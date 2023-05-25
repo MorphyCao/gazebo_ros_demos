@@ -15,10 +15,10 @@ Open-loop effort control
 
     ros2 launch rrbot_gazebo rrbot_world_effort_control.launch.py 
 
-Test open-loop position control (Joint Trajectory Controller):
+Test open-loop position control (JointTrajectoryController):
 
     ros2 run rrbot_description position_control_test 
-Test open-loop effort control (Joint Trajectory Controller):
+Test open-loop effort control (JointGroupEffortController):
 
     ros2 run rrbot_description effort_control_test 
 
