@@ -20,7 +20,7 @@
   <xacro:property name="axel_offset" value="0.05"/>
 
   <!-- Import all Gazebo-customization elements, including Gazebo colors -->
-  <xacro:include filename="$(find rrbot_description)/urdf/rrbot.gazebo"/>
+  <xacro:include filename="$(find rrbot_description)/urdf/rrbot_effort.gazebo"/>
   <!-- Import Rviz colors -->
   <xacro:include filename="$(find rrbot_description)/urdf/materials.xacro"/>
 

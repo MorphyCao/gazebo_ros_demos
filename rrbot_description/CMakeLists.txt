@@ -29,10 +29,18 @@ ament_target_dependencies(position_control_test
   control_msgs
 )
 
+add_executable(effort_control_test src/effort_control_test.cpp)
+ament_target_dependencies(effort_control_test
+  rclcpp
+  rclcpp_action
+  control_msgs
+)
+
 ## Install
 install(
   TARGETS
     position_control_test
+    effort_control_test
   DESTINATION
     lib/${PROJECT_NAME}
 )
